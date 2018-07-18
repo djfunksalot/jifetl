@@ -1,0 +1,19 @@
+{
+    "services": [{
+        "name": "dbnode",
+        "portMappings": [{
+            "hostPort": "3306",
+            "protocol": "tcp",
+            "containerPort": "3306"
+        }]
+      },{
+        "name": "appnode"
+      }],
+    "global": {
+        "IP": "127.0.0.2",
+        "NETWORK": "bridge",
+        "MYSQL_ROOT_PASSWORD": "changeme",
+        "MYSQL_DATABASE": "yourprojectname",
+        "sql_mode":""
+    }
+}

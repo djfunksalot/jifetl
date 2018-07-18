@@ -1,0 +1,10 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "name": "jifetl",
+  "description": "Automated ETL",
+  "license": "MIT",
+  "dependencies": {
+    "awcm": "^1.1.0"
+  }
+}

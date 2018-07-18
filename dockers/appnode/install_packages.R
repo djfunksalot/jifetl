@@ -1,0 +1,7 @@
+install.packages('RMySQL', repos='http://cran.us.r-project.org')
+install.packages('hexbin', repos='http://cran.us.r-project.org')
+install.packages('mongolite', repos='http://cran.us.r-project.org')
+install.packages('xlsx', repos='http://cran.us.r-project.org')
+install.packages('plotly', repos='http://cran.us.r-project.org')
+source("https://bioconductor.org/biocLite.R")
+biocLite("AnnotationDbi")
