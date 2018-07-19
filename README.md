@@ -27,3 +27,14 @@ docker network create jifetl
 tar -xzvf data.tgz
 docker exec -it dbnode initdb.sh
 ```
+
+#notes
+kill all containers
+```bash
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+```
+Delete all images
+```bash
+docker rmi $(docker images -q)
+```
