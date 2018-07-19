@@ -10,7 +10,7 @@
         "name": "appnode"
       }],
     "global": {
-        "IP": "127.0.0.2",
+        "IP": "127.0.0.1",
         "NETWORK": "jifetl",
         "MYSQL_ROOT_PASSWORD": "changeme",
         "MYSQL_DATABASE": "yourprojectname",
