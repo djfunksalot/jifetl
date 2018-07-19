@@ -12,6 +12,11 @@ cd <PROJECT_ROOT>
 npm install
 ```
 
+2. create the network
+```bash
+docker network create jifetl
+```
+
 2. start the containers
 ```bash
 ./jifetl.js rebuild
