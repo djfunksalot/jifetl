@@ -17,18 +17,18 @@ npm install
 docker network create jifetl
 ```
 
-2. start the containers
+3. create a configuration file
 ```bash
-./jifetl.js rebuild
+cp jifetcl_example.json jifetl.json
 ```
 
-3. initialized the database
+4. initialized the database
 ```bash
 tar -xzvf data.tgz
 docker exec -it dbnode initdb.sh
 ```
 
-#notes
+# notes
 kill all containers
 ```bash
 docker stop $(docker ps -a -q)
